@@ -541,30 +541,6 @@ Solución:
 
 ---
 
-## 📈 Mejoras Futuras
-
-### Backend
-
-- [ ] Implementar autenticación y autorización (JWT)
-- [ ] Agregar paginación para listado de usuarios
-- [ ] Implementar búsqueda y filtros
-- [ ] Agregar logging con Serilog
-- [ ] Implementar caché con Redis
-- [ ] Agregar pruebas unitarias e integración
-
-### Frontend
-
-- [ ] Implementar guards de autenticación
-- [ ] Agregar paginación en la grilla
-- [ ] Implementar búsqueda y filtros
-- [ ] Agregar ordenamiento de columnas
-- [ ] Implementar exportación a Excel/PDF
-- [ ] Agregar modo oscuro (dark mode)
-- [ ] Mejorar accesibilidad (WCAG 2.1)
-- [ ] Implementar PWA capabilities
-
----
-
 ## 📞 Contacto y Soporte
 
 Para preguntas, problemas o sugerencias sobre el proyecto:
