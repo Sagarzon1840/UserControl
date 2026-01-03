@@ -483,69 +483,9 @@ npm test -- --code-coverage
 
 ---
 
-## 🐛 Troubleshooting
+## Información más detallada
 
-### Backend
-
-#### Error de conexión a SQL Server
-
-```
-Solución:
-- Verifica que SQL Server esté ejecutándose
-- Confirma la cadena de conexión en appsettings.Development.json
-- Verifica los permisos del usuario de la BD
-```
-
-#### Error al crear migraciones
-
-```bash
-# Solución: Asegúrate de estar en la carpeta correcta
-cd Backend/Business.Api
-dotnet build
-dotnet ef migrations add MigrationName
-```
-
-### Frontend
-
-#### Error de CORS
-
-```
-Solución:
-Verifica que el backend tenga configurado el origen correcto:
-builder.Services.AddCors(options => {
-    options.AddDefaultPolicy(policy => {
-        policy.WithOrigins("http://localhost:4200")
-              .AllowAnyHeader()
-              .AllowAnyMethod();
-    });
-});
-```
-
-#### Error con Tailwind CSS
-
-```bash
-# Solución: Reinstalar dependencias
-cd Frontend
-npm uninstall tailwindcss
-npm install -D tailwindcss@3.4.17 postcss autoprefixer
-```
-
-#### Error de conexión a la API
-
-```
-Solución:
-- Verifica que el backend esté ejecutándose en https://localhost:7254
-- Revisa src/app/services/usuario.service.ts y confirma la URL
-- Abre la consola del navegador para más detalles
-```
-
----
-
-## 📞 Contacto y Soporte
-
-Para preguntas, problemas o sugerencias sobre el proyecto:
-
-- Revisa la documentación en los README específicos:
+- Para Información más detallada, es posible revisar los README específicos:
   - [Backend README](Backend/README.md)
   - [Frontend README](Frontend/README.md)
 - Verifica los logs de la aplicación
@@ -558,5 +498,3 @@ Para preguntas, problemas o sugerencias sobre el proyecto:
 Este proyecto es un sistema de gestión de usuarios con fines educativos y de demostración.
 
 ---
-
-**Desarrollado con .NET 8, Angular 20 y Tailwind CSS** 🚀
