@@ -1,0 +1,72 @@
+# ============================================
+# BACKEND (.NET)
+# ============================================
+
+# Build results
+**/bin/
+**/obj/
+
+# User-specific files
+Backend/**/*.csproj.user
+Backend/**/*.user
+
+# Development settings with sensitive data
+Backend/**/appsettings.Development.json
+
+# Visual Studio cache/options
+.vs/
+
+# Entity Framework Core
+Backend/**/*.db
+Backend/**/*.db-shm
+Backend/**/*.db-wal
+
+# NuGet packages
+Backend/**/*.nupkg
+Backend/**/*.snupkg
+
+# Test results
+Backend/[Tt]est[Rr]esult*/
+Backend/[Bb]uild[Ll]og.*
+
+# .NET Core
+Backend/**/project.lock.json
+Backend/**/project.fragment.lock.json
+Backend/artifacts/
+
+
+# ============================================
+# FRONTEND (Angular)
+# ============================================
+
+# Dependencies
+**/node_modules/
+
+# Build output
+Frontend/dist/
+
+# Angular cache
+Frontend/.angular/
+
+# IDE
+Frontend/.vscode/
+Frontend/.idea/
+
+# Test coverage
+Frontend/coverage/
+
+# Logs
+Frontend/*.log
+Frontend/npm-debug.log*
+Frontend/yarn-error.log*
+
+
+# ============================================
+# GENERAL
+# ============================================
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
